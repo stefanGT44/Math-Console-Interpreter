@@ -8,7 +8,7 @@ The application has a basic command line interface that the user interacts with,
 The application is consisted of a lexer and an interpreter. The interpreter evaluates complex expressions by recursively calling functions in the order dictated by operator precedence. These functions use tokens, which are provided by the lexer, for calculations/evaluations.
 A token represents a part of the input string that has a certain semantic value, so the lexer assigns a corresponding type to it which the interpreter uses to determine what to do next.
 
-For an example if the lexer detects a sequence of characters in the input string that represents a whole number it will make a token with the value of the detected number and assign an INTEGER type to it.
+For an example if the lexer detects a sequence of characters in the input string that represents a whole number it will create a token object with the value of the detected number and assign an INTEGER type to it.
 
 ## Supported operations:
 * Addition / subtraction (+, -)
