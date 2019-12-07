@@ -29,4 +29,4 @@ True<br>
 This project was an assignment as part of the course - Program interpreters/compilers in the 3rd year at the Faculty of Computer Science in Belgrade.
 
 ## Contributors
-- Stefan Ginic <stefangwars@gmail.com>
+- Stefan Ginic - <stefangwars@gmail.com>
