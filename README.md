@@ -5,7 +5,7 @@ This is a small console application that evaluates math and boolean expressions 
 The application has a basic command line interface that the user interacts with, it supports most of the math/boolean expression logic that the Python console does, it even supports the use of variables.
 
 ## Implementation details
-The application is consisted of a lexer and an interpreter. The interpreter evaluates complex expressions by recursively calling functions in the order dictated by operator precedence. These functions use tokens, which are provided by the lexer, for calculations/evaluations.
+The application is consisted of a lexer and an interpreter. The interpreter evaluates complex expressions by recursively calling functions in the order dictated by operator precedence. These functions use tokens for calculations/evaluations.
 A token represents a part of the input string that has a certain semantic value, to which the lexer assigns a corresponding type to, which then the interpreter uses to determine what to do next.
 
 For an example if the lexer detects a sequence of characters in the input string that represents a whole number it will create a token object with the value of the detected number and assign an INTEGER type to it. So when the interpreter comes across an INTEGER token followed by a PLUS token it expects an INTEGER/REAL token next or an expression that evaluates to a number, after which an addition is calculated and the value is returned.
