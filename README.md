@@ -20,9 +20,9 @@ For example if the lexer detects a sequence of characters in the input string th
 
 ## Console interaction example:
 \>>>c = POW(2, (57 - 54) * 2)<br>
-64<br>
+(output)  64<br>
 \>>>a = COS(TAN(450)) < c<br>
-True<br>
+(output)  True<br>
 
 ## Sidenote
 This project was an assignment as part of the course - Program interpreters/compilers in the 3rd year at the Faculty of Computer Science in Belgrade.
