@@ -1,4 +1,4 @@
-# Math Interpreter
+# Math Expression Interpreter
 This is a small console application that evaluates math and boolean expressions with support for variables.
 
 ## Overview
