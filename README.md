@@ -25,7 +25,7 @@ For example if the lexer detects a sequence of characters in the input string th
 (output)  True<br>
 
 ## Sidenote
-This project was an assignment as part of the course - Program interpreters/compilers in the 3rd year at the Faculty of Computer Science in Belgrade.
+This project was an assignment as part of the course - Program interpreters/compilers in the 5th semester at the Faculty of Computer Science in Belgrade.
 
 ## Contributors
 - Stefan Ginic - <stefangwars@gmail.com>
